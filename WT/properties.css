@@ -1,0 +1,100 @@
+body 
+{
+    background-image:url("https://i.pinimg.com/564x/28/b7/54/28b75488f108c26e00fa24cd7299190a.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 10px;
+}
+header 
+{
+    text-align: center;
+    background-color: #f3dac6;
+    padding: 10px;
+}
+header img 
+{
+    max-width: 100px;
+    max-height: 100px;
+}
+h1 
+{
+    color: white;
+    margin: 10px 0;
+}
+form 
+{
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 
+{
+    margin-top: 20px;
+}
+p 
+{
+    margin: 10px 0;
+}
+label 
+{
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select 
+{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="radio"],
+
+input[type="checkbox"] 
+{
+    margin-right: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] 
+{
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover 
+{
+    background-color: #005bb5;
+}
+.center-content 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+form 
+{
+    max-width: 700px;
+    width: 100%;
+}
